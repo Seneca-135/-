@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cormorant:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Cormorant:wght@300..700&display=swap');
+@import "./reset.css";
+
+body {
+        background: #8D917A no-repeat left top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Cormorant", serif;
+    font-weight: 400;
+    }
+
+    .container {
+        max-width: 482px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+
+    /* header */
+    .header {
+        margin: 50px 0 0 0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-title {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .header-img {
+        margin: 60px 0 0 0;
+        overflow: hidden;
+        max-width: 280px;
+    }
+    .img-me {
+        border-radius: 10px;
+        /* filter: blur(2px); */
+    }
+    /* header */
+
+    /* info */
+
+    .info {
+        margin-top: 100px;
+        text-align: center;
+    }
+    .info-box:not(:last-of-type) {
+        padding-bottom: 50px;
+    }
+    .info-title {
+        font-family: "Source Sans 3", sans-serif;
+        font-size: 35px;
+        padding-bottom: 20px;
+        font-weight: 300;
+    }
+
+    .info-title span{
+        font-family: "Cormorant", serif;
+    }
+
+    .info-subtitle {
+        font-family: "Source Sans 3", sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 18px;
+    }
+
+    /* info */
+
+    /* timer */
+    .timer{
+        margin:70px 0 70px 0;
+        text-align: center;
+        padding: 70px 0;
+        background: url("./../img/header/pop.jpg") no-repeat center center fixed;
+        background-size: cover;
+        color: black;
+    }
+    .timer-title {
+        font-size: 24px;
+        margin-bottom: 30px;
+        font-weight: 700;
+    }
+    .timer-otchet {
+        font-family: "Source Sans 3", sans-serif;
+        font-size: 50px;
+    }
+    /* timer */
+
+    
+    /* pointer */
+
+    .point {
+        text-align: center;
+        margin: 0 0 100px 0 ;
+    }
+    .point-title {
+        font-size: 55px;;
+        padding-bottom: 20px;
+    }
+    .point-info {
+        font-size: 20px;
+        margin-bottom: 50px;
+        line-height: 18px;
+    }
+
+    .point-btn{
+        margin-top: 90px;
+    }
+
+    .point-btn a{
+        background-color: black;
+        padding: 40px 30px;
+        color: #fff;
+        border-radius: 100%;
+        font-size: 20px;
+    }
+
+    .point-btn:active{
+        transform: translateY(10px);
+    }
+
+    /* pointer */
+
+
+    /* program */
+
+    .program {
+        padding: 50px 0;
+        background: url("./../img/header/pop.jpg") no-repeat center center fixed;
+        background-size: cover;
+    }
+    .program-contant {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 40px;
+        text-align: center;
+    }
+    .program-title {
+        font-size: 35px;
+        padding-bottom: 60px;
+        font-weight: 400;
+    }
+    .program-info {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+    .program-punct {
+        display: flex;
+    }
+    .program-text {
+        margin-right: 70px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+
+    .element {
+        background-color: black;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-right: 50px;
+    }
+    /* program */
+
+    /* detali */
+
+    .detali {
+        padding: 50px 0 100px 0;
+        text-align: center;
+    }
+    .detali-title {
+        font-size: 35px;
+        padding-bottom: 20px;
+        font-weight: 300;
+    }
+    .detali-subtitle {
+        font-family: "Source Sans 3", sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 18px;
+        margin-bottom: 50px;
+    }
+    .detali-btn {
+        background-color: black;
+        margin: 0 auto;
+        width: 200px;
+        border-radius: 20px;
+        padding: 20px 0;
+    }
+
+    .detali-btn a{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    /* detali */
